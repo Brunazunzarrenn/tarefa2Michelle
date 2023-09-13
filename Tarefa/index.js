@@ -92,7 +92,7 @@ app.get("/", (req, res) => {  //criando a rota - endpoint
   });
   mongoose
   .connect(
-    'mongodb+srv://britesduarte:Mte042004@aula.zuecd3h.mongodb.net/?retryWrites=true&w=majority',
+    'mongodb+srv://zunzarrenbruna:Mte042004@aula.zuecd3h.mongodb.net/?retryWrites=true&w=majority',
   )
   .then(() => {
     console.log('Conectou ao banco!')
